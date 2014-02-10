@@ -3,4 +3,4 @@ function B() {
 }
 
 B.prototype = Object.create(Parent.prototype)
-B.prototype.constructor B
+B.prototype.constructor=B
